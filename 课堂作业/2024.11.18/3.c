@@ -2,7 +2,7 @@
 int main()
 {
 	int n,i,j;
-	scanf("%d",&n);
+	scanf_s("%d",&n);
 	for(i=n/2+1;i>=1;i--)
 	{
 		for(j=1;j<=n;j++)
@@ -14,7 +14,7 @@ int main()
 		}
 		printf("\n");
 	}
-	for(i=1;i<=n/2+1;i++)
+	for(i=1;i<=n/2;i++)
 	{
 		for(j=1;j<=n;j++)
 		{
